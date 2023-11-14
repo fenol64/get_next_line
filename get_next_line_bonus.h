@@ -1,17 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   get_next_line.h                                    :+:      :+:    :+:   */
+/*   get_next_line_bonus.h                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fnascime <fnascime@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/02 16:54:13 by matlopes          #+#    #+#             */
-/*   Updated: 2023/11/14 14:50:54 by fnascime         ###   ########.fr       */
+/*   Updated: 2023/11/14 14:50:49 by fnascime         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef GET_NEXT_LINE_H
-# define GET_NEXT_LINE_H
+#ifndef GET_NEXT_LINE_BONUS_H
+# define GET_NEXT_LINE_BONUS_H
+
+# ifndef MAX_FD
+#  define MAX_FD 42
+# endif
 
 # ifndef BUFFER_SIZE
 #  define BUFFER_SIZE 42
